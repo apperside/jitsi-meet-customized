@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": [
+        "./myapp/ui/*"
+      ],
+      "@hooks/*": [
+        "./myapp/hooks/*"
+      ],
+      "@screen/*": [
+        "./myapp/screens/*"
+      ],
+      "@models/*": [
+        "./myapp/models/*"
+      ],
+      "@api": [
+        "./myapp/api"
+      ],
+      "@api/*": [
+        "./myapp/api/*"
+      ],
+      // "@api/*": [
+      //   "./myapp/api/*"
+      // ],
+      "@redux": [
+        "./myapp/redux"
+      ],
+      "@redux/*": [
+        "./myapp/redux/*"
+      ],
+      "@utils": [
+        "./myapp/utils"
+      ],
+      "@utils/*": [
+        "./myapp/utils/*"
+      ]
+    },
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true
+  }
+}

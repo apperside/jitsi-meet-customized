@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "@node_modules/@types",
+      "@types",
+      "typings"
+    ]
+  },
+  "include": [
+    "index.js",
+    "src",
+    "seeting",
+    "typings"
+  ]
+}
