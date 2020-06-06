@@ -144,7 +144,7 @@
     "babel-eslint": "10.0.1",
     "babel-loader": "8.0.4",
     "circular-dependency-plugin": "5.2.0",
-    "clean-css": "3.4.25",
+    "clean-css": "4.1.11",
     "css-loader": "0.28.7",
     "eslint-config-jitsi": "github:jitsi/eslint-config-jitsi#1.0.3",
     "eslint-plugin-flowtype": "2.50.3",
