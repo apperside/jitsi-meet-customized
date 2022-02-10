@@ -163,7 +163,7 @@
     "karma-webpack": "^4.0.2",
     "karma": "^5.0.9",
     "metro-react-native-babel-preset": "0.56.0",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.0",
     "string-replace-loader": "2.1.1",
     "style-loader": "0.19.0",
     "ts-loader": "^7.0.5",
